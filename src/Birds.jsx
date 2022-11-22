@@ -4,7 +4,7 @@ import Card from "./Card";
 import "./Birds.css";
 
 
-class Main extends Component {
+class Birds extends Component {
   state = {
     birds: birds,
     search: "",
@@ -87,7 +87,7 @@ class Main extends Component {
     return (
       <main>
         <h1>{this.state.birds.length} birds</h1>
-        <h1>{this.state.search}</h1>
+        {/* <h1>{this.state.search}</h1> */}
 
         <input onChange={this.searchHandler} type="search" />
         <div className="Cards_container">{birdsList}</div>
@@ -96,5 +96,5 @@ class Main extends Component {
   }
 }
 
-export default Main;
+export default Birds;
 

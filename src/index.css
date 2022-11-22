@@ -22,9 +22,9 @@ body {
 }
 
 h1 {
-text-align: center;
+  color: silver;
+  font-size: 28px;
 }
 
-input {
-  margin: auto;
-}
+
+

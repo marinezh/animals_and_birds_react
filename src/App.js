@@ -3,19 +3,13 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 
 import Home from "./Home";
-import Animals from "./Animals.js";
-import Birds from "./Birds.js";
+import Animals from "./Animals.jsx";
+import Birds from "./Birds.jsx";
 import About from "./About";
 
 class App extends Component {
-
-
-
-
-
   render() {
     return (
-     
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -29,10 +23,9 @@ class App extends Component {
           <Link to="/birds">Birds</Link>
           <Link to="/about">About</Link>
         </nav>
+      </BrowserRouter>
 
-  
-        </BrowserRouter>
-   
+      
     );
   }
 }

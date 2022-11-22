@@ -1,0 +1,37 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  /* margin-top: 5rem; */
+  margin-top: 5rem;
+}
+
+.animals_card {
+  background-image: url("https://images.unsplash.com/photo-1574870111867-089730e5a72b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YW5pbWFsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 400px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 1rem;
+  border-radius: 3px;
+}
+
+.birds_card {
+  background-image: url("https://unsplash.com/photos/wTPp323zAEw/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTV8fGFuaW1hbHN8ZW58MHx8fHwxNjY5MTE1NDEy&force=true");
+  background-size:cover;
+  background-repeat: no-repeat;
+background-position:center;
+  height: 400px;
+  width: 250px;
+  display: flex;
+  padding-left: 1rem;
+  align-items: flex-end;
+  border-radius: 3px;
+  justify-content: center;
+}

@@ -13,8 +13,44 @@ nav {
   display: flex;
   gap: 20px;
 }
+
+a {
+  text-decoration: none;
+  color: silver;
+}
 .App-link {
   color: #61dafb;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1.5rem;
+}
+
+nav {
+  margin-top: 2rem;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+#root {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 2rem;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
 }
 
 @keyframes App-logo-spin {
