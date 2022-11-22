@@ -1,0 +1,57 @@
+img {
+  /* height: 250px; */
+  width: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+
+.add_like {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+  padding-bottom: 5px;
+
+}
+
+.card {
+  background-color: #f5f5f5;
+  width: 200px;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete_card {
+  margin: 0;
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  top: 0.2rem;
+  right: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like_btn {
+    background-color: transparent;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.disLike_btn{
+    background-color: transparent;
+    border:none; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+h3 {
+  padding-top: 10px;
+}
